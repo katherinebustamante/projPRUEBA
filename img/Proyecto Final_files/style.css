@@ -1,0 +1,147 @@
+body{
+    font-family: "Futura Light";
+    font-size: 14px;
+    color: #fff;
+	
+}
+
+#background h1{
+	text-align: center;
+
+}
+	
+
+
+#background{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 18.5% 0;	
+
+	}
+
+#prox-parada h1{
+	padding: 20px 0;
+	margin-top: 50px;
+	text-align: top center;
+	
+}
+
+
+#prox-parada h2{
+	text-align: center;
+}
+
+
+#social-media{
+	background-color: #EFEFEF;
+	padding: 2000px 90;
+	font-family: asparagus;
+	
+
+}
+
+
+#social-media h2{
+	padding: 40px 0;
+	color: #696969;
+	font-size: 25px;
+
+}
+
+#social-media img{
+	padding: 20px 0;
+	margin-right: 10px;
+}
+	
+	
+
+#secciones{
+	padding: 50px 0;
+	
+}
+
+
+#blog{
+	padding: 50px 0;
+	color: #484747;
+	font-family: 'Futura Light';
+	
+	
+}
+
+
+#blog h3{
+	font-family: "Futura Light";
+	padding-top: 20px;
+}
+
+#blog h4{
+	font-size: 20px;
+	color: #6a6a6a;
+}
+
+
+
+.btn{
+	background-color: #cacaca;
+	color: #FFFFFF;
+	font-size: 13;
+	
+}
+
+.btn:hover{
+	background-color:#64d7da;
+	color: #FFFFFF;
+}
+
+ .btn-green{
+	background-color: #00c1c7;
+	border-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 10px 100px;
+	text-align: center;
+	align-content: center;
+	text-transform: uppercase;
+	 
+}
+
+
+.btn-green:hover{
+	background-color:#64d7da;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+p{
+	font-size: 20px;
+	color: #888584;
+	font-family: "Futura Light";
+	padding: 20px 0;
+	
+}
+
+
+#contact{
+	background-image: url("../img/contact.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 18.5% 0;
+}
+
+
+
+
+footer{
+	text-align: center;
+	padding-top: 80px;
+	margin-bottom: 1px;
+}
+
+#copy{
+	padding-top: 10px;
+	
+	
+}

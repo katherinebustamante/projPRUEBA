@@ -1,0 +1,726 @@
+@font-face {
+    font-family: 'Futura Heavy';
+    src: url("../fonts/Futura-Heavy-font.ttf")format("truetype");
+   
+}
+@font-face {
+    font-family: 'Futura';
+    src: url("../fonts/futura-light-bt.ttf") format("truetype");
+   
+}
+
+
+@font-face {
+    font-family: 'Asparagus';
+    src: url("../fonts/Asparagus Sprouts.ttf")format("truetype");
+   
+}
+
+
+body{
+    font-family: 'Futura';
+    font-size: 14px;
+    color: #fff;
+
+}
+
+
+header{
+    background-color: transparent;
+    padding: 10px 0;
+    position: absolute;
+    width: 50%;
+    z-index: 10000;
+	font-family: 'Futura Heavy';
+	font-weight: 900;
+}
+
+
+#home{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 18.5% 0;
+	
+
+	}
+
+
+
+#home img{
+	text-align: center;
+}
+
+#prox-parada img .prox{
+	padding: 20px 0;
+	margin-top: 80px;
+	text-align: top center;
+	
+}
+
+
+#prox-parada img {
+	text-align: center;
+}
+
+
+#social-media{
+	background-color: #EFEFEF;
+
+	
+
+}
+
+
+#social-media h2{
+	padding: 40px 0;
+	color: #696969;
+	font-size: 40px;
+	font-family: 'Asparagus';
+
+}
+
+#social-media img{
+	padding: 20px 0;
+	margin-right: 80px;
+}
+	
+	
+
+#secciones{
+	padding: 50px 0;
+	font-family: 'Futura Heavy';
+	
+}
+
+
+#blog{
+	padding: 50px 0;
+	color: #484747;
+	
+	font-family: 'Futura';
+	
+	
+}
+
+
+
+
+#blog h4{
+	font-size: 20px;
+	color: #6a6a6a;
+	font-family: 'Futura';
+}
+
+.blog-title{
+	
+	text-decoration: none;
+	font-family: 'Futura Heavy';
+	padding-top: 20px;
+	color: #6a6a6a;
+
+}
+
+.blog-title:hover{
+	color: #64d7da;
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+.btn{
+	background-color: #cacaca;
+	color: #FFFFFF;
+	font-size: 13;
+	font-family: 'Futura';
+	
+}
+
+.btn:hover{
+	background-color:#64d7da;
+	color: #FFFFFF;
+}
+
+ .btn-green{
+	background-color: #00c1c7;
+	border-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 10px 100px;
+	text-align: center;
+	align-content: center;
+	text-transform: uppercase;
+	 font-family: 'Futura Heavy';
+	 
+}
+
+
+.btn-green:hover{
+	background-color:#64d7da;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+p{
+	font-size: 20px;
+	color: #888584;
+	font-family: 'Futura';
+	padding: 20px 0;
+	
+}
+
+
+.actividad{
+	position: relative;
+}
+
+.canopy-texto h6{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #FFFFFF;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	
+	
+	
+}
+
+
+.comida-texto h6{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #FFFFFF;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	
+	
+}
+
+
+.actividades-texto h6{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #FFFFFF;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	
+	
+	
+	
+}
+
+
+.canopy-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(195,100,191,0.49);
+	opacity: 0;
+	transition: all 0.1s ease-in;
+	z-index: 10;
+	
+}
+
+.actividad:hover .canopy-fondo{
+
+	opacity: 1;
+}
+
+
+.comida-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(53,212,224,0.56);
+	opacity: 0;
+	transition: all 0.1s ease-in;
+	z-index: 10;
+	
+}
+
+
+.actividad:hover .comida-fondo{
+
+	opacity: 1;
+}
+
+
+.actividades-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(236,235,55,0.37);
+	opacity: 0;
+	transition: all 0.1s ease-in;
+	z-index: 10;
+	
+	
+}
+
+.actividad:hover .actividades-fondo{
+
+	opacity: 1;
+}
+
+
+
+
+#slides h1{
+    font-size: 60px;
+    
+    margin-bottom: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	font-family: 'Futura Heavy';
+	font-weight: 600;
+	padding-top: 90px;
+}
+
+#slides .carousel-item img{
+    height: 640px;
+}
+
+#slides .carousel-caption{
+    top:20%;    
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slide-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.55);
+}
+
+
+.honduras{
+    position: relative;
+    overflow: hidden;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	
+	
+	
+}
+
+
+
+.honduras-fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(136,234,249,0.48);
+    opacity: 0;
+    transition: all 0.4s ease-in;
+    z-index: 10;
+
+}
+
+
+.honduras-texto h6{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #FFFFFF;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	
+	
+	
+}
+
+
+.honduras-texto h5{
+position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #FFFFFF;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	transition: all 0.2s ease-in;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	font-family: 'Futura Heavy';
+	
+	
+	
+	}
+	
+
+
+
+
+
+.honduras:hover .honduras-fondo{
+    opacity: 1;
+    transition: all 0.4s ease-in;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+.honduras-frame{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#title{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 30px;
+	padding: 200px 0;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+
+#contactus{
+background-image: url("../img/contactus.jpg");
+
+	
+}
+
+
+#contactus h1{
+font-family: 'Futura Heavy';
+text-transform: uppercase;
+padding-top: 150px;
+	
+}
+
+
+.bg-contact p{
+	color:#FFFFFF;
+	 
+}
+
+
+#map{
+	width: 100%;
+	height: 400px;	
+}
+
+
+#home-comida{
+	background-image: url("../img/home-comida-back.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 19% 0;
+	
+
+	}
+
+.comida-home{
+	font-family: 'Futura Heavy';
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	padding: 20px 0;
+}
+
+
+
+.btn-light-trans{ 
+	
+	background-color: transparent;
+	border-color: #FFFFFF;
+    font-size: 13px;
+    letter-spacing: 1px;
+	color: #FFFFFF;
+	border-radius: 2;
+	padding: 10px 30px;
+	font-family: 'Futura Heavy';
+	text-transform: uppercase;
+	
+	
+}
+
+#platos{
+	
+	padding: 5% 0;
+}
+
+.titulo-comida{
+	text-align: center;
+	color: #484747;
+
+	font-family: 'Futura Heavy';
+	font-size: 40px;
+	
+}
+
+#platos p{
+	text-align: center;
+}
+
+
+#platos img{
+	text-align: center;
+}
+
+#platos h5{
+	color: #484747;
+	text-align: center;
+}
+
+
+#platos p{
+	color: #484747;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+#chefs{
+	background-color: #F3F3F3;
+
+	
+}
+#chefs p{
+	color: #484747;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+.chefs-foto:hover img{
+	transform:scale(1.1);
+	transform: all 1s ease-in-out;
+	filter: blur(0px);
+}
+
+
+#chefs h6{
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Futura Heavy';
+	color: #484747;
+	padding-top: 30px;
+	text-transform: uppercase;
+	
+}
+
+.titulo-chefs{
+	text-align: center;
+	color: #484747;
+padding-top: 30px;
+	font-family: 'Futura Heavy';
+	font-size: 40px;
+	
+}
+
+
+
+.titulo-viaja{
+	text-align: center;
+	color: #484747;
+padding-top: 30px;
+	font-family: 'Futura Heavy';
+	font-size: 40px;
+	
+}
+
+
+
+
+
+
+
+
+#home-extranjero{
+	background-image: url( "../img/architecture-beach-city-1285625-02.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 19% 0;
+}
+
+#home-extranjero h1{
+	font-family: 'Futura Heavy';
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	padding: 20px 0;
+	
+}
+
+
+
+.viaja-sub{
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Futura Heavy';
+	color: #484747;
+	padding-top: 60px;
+	text-transform: uppercase; 
+}
+
+
+#viaja{
+	padding: 1% 0;
+	
+}
+
+
+#tips{
+	background-image: url( "../img/architecture-beach-city-1285625-01.jpg");
+	background-size: cover;
+	background-position:bottom center;
+	padding: 40px 0;
+	
+
+}
+
+
+.titulo-tips{
+	text-align: center;
+	color: #FFFFFF;
+padding-top: 40px;
+	font-family: 'Futura Heavy';
+	font-size: 50px;
+	
+	
+}
+
+.far-viajes{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 40px;
+	
+	padding-top: 40px;
+}
+
+
+#tips p{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Futura';
+}
+
+
+
+.viaja-sub{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Futura Heavy';
+}
+
+
+
+
+.btn-light-transp{ 
+	
+	background-color: transparent;
+	border-color: #FFFFFF;
+    font-size: 13px;
+    letter-spacing: 1px;
+	color: #FFFFFF;
+	border-radius: 2;
+	padding: 10px 30px;
+	font-family: 'Futura Heavy';
+	text-align: center;
+	text-transform: uppercase;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+	color: #FFFFFF;
+	font-family: 'Futura';
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+footer{
+	text-align: center;
+	background-image: url("../img/background.jpg");
+	
+	
+
+
+}
+
+footer img{
+	text-align: center;
+	padding: 0.1% 0;
+	background-size: cover;
+	
+	
+}
+
+p #copy{
+	margin-bottom: 0px !important;
+	
+}
+#copy{
+	padding-top: 10px;
+	
+}

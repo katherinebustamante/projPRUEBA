@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>contáctanos</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+<link href="css/style.css" rel="stylesheet">
+	<meta name="Keywords" content="comida,roatán, turista, visitar,honduras,tegucigalpa,turismo, gastronomia,actividades">
+</head>
+
+	<header>
+		<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lugares1.html">Honduras <span class="sr-only">(current)</span></a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="comida.html" >Comida</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="extranjero.html" >Extranjero</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="contactus.html" >Contáctanos</a>
+      </li>
+    	</ul>
+	  <ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com/deltimboaltambohn" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/deltimboaltambo/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/channel/UCk29wV8c-RR8YnQ2r17jIxg" target="_blank"><i class="fab fa-youtube"></i></a>
+      </li>
+	</ul>
+
+  </div>
+</nav>
+		</div>
+	</header>
+	
+	
+	
+	
+	
+	<section  id="contactus" class="bg-contact">
+		<div class="container">
+		<div class="overlay">
+			<div class= "container text-center">
+			
+			<h1>¡Contáctanos!</h1>
+			
+		<div class="row">
+		<article>
+			<h4>¿Quieres hablar de algo con nosotros?</h4>
+			<p><strong>Hablemos pues. Estamos abiertos a cualquier crítica, comentario, sugerencia e incluso nuevos integrantes para nuestro equipo de trabajo.</strong></p>
+			
+			<h6>+(504)-2234-3208<br> business@pulpoterrestre.com</h6>
+			
+			<article class="col-md-6 col-sm-6 col-xs-12 col-xl-12">
+			<form id="form-contact" name="form-contact" action="" method="post">
+				<div class="row">
+			<div class="form-group col-md-6 col-sm-6 col-xl-6">
+				
+				
+				
+				
+				
+					
+				  <input type="text" id="name" class="form-control" required placeholder="Nombre" align="middle">
+				</div>
+				  <div class="form-group col-md-6 col-sm-6 col-xl-6">
+				
+					<input type="email" id="correo" class="form-control" required placeholder="Email" align="left">
+				</div>
+			    </div>
+				<div class="form-group">
+				
+				<select id="subject" name="subject" class="form-control">
+					
+					<option value="Comentario">Comentario</option>
+					<option value="Sugerencia">Sugerencia</option>
+					<option value="Quiero formar parte de su equipo">Quiero formar parte de su equipo</option>
+					</select>
+				</div>
+			<div class="form-group">
+				
+			  <textarea id="mensaje" name="mensaje" class="form-control" rows="8"></textarea>
+			  </div>
+			
+			</form>
+		    </article>
+		    </article>
+		    </div>
+	        </div>
+			</div>
+	         </div>
+	       </section>
+	
+	
+	
+	
+<section id="map">
+				
+				<div id="mapcu"></div>
+				
+</section>
+	
+	
+	
+<footer>
+	<div class="container contacto">
+		<img src="img/logo-pulpo-digital.png" class="img-fluid" width="50" alt="logo">
+            <p id="copy"> 2019 Pulpo Digital &copy; Todos los derechos reservados</p>
+      </div>
+	</footer>	
+	
+	
+	
+<script src="js/jquery.min.js"></script>	
+<script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<script src="js/gmaps.js"></script>
+	
+	<script>
+$(function () {
+	
+	$(window).load(function(){
+		mostrarMapa();
+	});
+
+	function mostrarMapa(){
+		var map;
+		var mLat = 14.048399; //latitud
+		var mLng = -87.174078; //longitud
+
+		map = new GMaps({
+			div: '#map', //id del <div> donde se mostrará el mapa.
+			lat: mLat,
+			lng: mLng,
+			zoom: 18
+		  });
+		map.addMarker({
+		  lat: mLat,
+		  lng: mLng,
+		  title: 'Nuestra ubicación en gMaps',
+		  infoWindow: {
+			content: '<p>UNITEC - Univ. Tecnológica de Honduras</p>'
+		  }
+		});	
+		
+	}
+});
+</script>
+	
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146935117-1"></script>
+	
+	<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146935117-1');
+</script>
+	
+<body>
+</body>
+</html>
